@@ -1,0 +1,329 @@
+/* this is section 1 css -----------------------*/
+body{
+    background: white;
+    margin: 0px;
+}
+
+#bg-img{
+    height: 895px;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.navbar{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.logo{      
+    border: 5px solid white;
+    padding: 15px 10px 10px;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px 0;
+}
+
+.d1_1{
+    text-align: right;
+    color: white;
+    margin-top: 0px;
+    padding-right: 15px;
+}
+
+.d1_2{
+    text-align: center;
+    color: white;
+    line-height: 275px;
+    font-size: 40px;
+}
+
+/* this is section 2 css -----------------------*/
+.d2{
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.box {
+   text-align: center;
+}
+
+.icon{
+    background: blue;
+    width: 90px;
+    height: 90px;
+    border-radius: 100px;
+    line-height: 110px;
+    margin: auto;
+    top: -45px;
+    position: relative;
+}
+
+#d2_1{
+    float: left;
+    width: 33%;
+}
+
+#d2_2{
+    width: 33%;
+    display: inline-block;
+}
+
+#d2_3{
+    width: 33%;
+    float: right;
+}
+
+/* this is section 3 css -----------------------*/
+.s3{
+    background-color:#151717 ;
+    color: white;
+    text-align: center;
+}
+
+.d3{
+    width: 70%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 5%;
+    justify-content: space-between;
+}
+
+.d3_1{
+    float: left;
+    width: 20%;
+}
+
+.d3_2{
+    width: 25%;
+    display: inline-block;
+}
+
+.d3_3{
+    width: 25%;
+    display: inline-block;
+}
+
+.d3_4{
+    width: 20%;
+    float: right;
+}
+
+.b3{
+    width: 240px;
+    height: 50px;
+    color: white;
+    background-color: #233EDE;
+    margin-bottom: 100px;
+    font-size: 18px;
+}
+
+#p3{
+    color: #7b7b7b;
+}
+
+/* this is section 4 css -----------------------*/
+.s4{
+    background-image: url('trainer-bg.jpg');
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+.d4{
+    width: 70%;
+    margin: auto;
+    justify-content: space-between;
+    padding-bottom: 2%;
+}
+
+.d4_1{
+    float: left;
+    width: 33%;
+}
+
+.d4_2{
+    width: 33%;
+    display: inline-block;
+}
+
+.d4_3{
+    width: 33%;
+    float: right;
+}
+
+/* this is section 5 css -----------------------*/
+.d5{
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.d5_1{
+    float: left;
+    width: 25%;
+    height: 400px;
+}
+
+.d5_2{
+    width: 25%;
+    display: inline-block;
+    height: 400px;
+}
+
+.d5_3{
+    width: 25%;
+    float: right;
+    height: 400px;
+}
+
+.d5_1{
+    border: 2px solid #b8bac9;
+    padding: 30px;
+}
+
+strong{
+    letter-spacing: 4px;
+    color: #7b7b7b;
+}
+
+#head5_1{
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+
+.t5{
+    width: 100%;
+    color: gray;
+    border-spacing: 10px;
+}
+
+.d5_2{
+    background-image: url('woman-exercise.jpg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    border: 10px solid blue;
+    height: 395px;
+    padding: 2.5rem 1.5rem 1.5rem;
+    padding-top: 30px;
+    display: inline-block;
+}
+
+#head5_2{
+    color: blue;
+    font-size: 70px;
+    margin: 0px;
+}
+
+span{
+    font-size: 25px;
+}
+
+.d5_3{
+    color: white;
+    background-image: url('personal-trainer.jpg');
+    background-repeat: no-repeat;
+    padding: 30px;
+    text-align: left;
+}
+
+.b5{
+    cursor: pointer;
+    background: #233EDE;
+    color: white;
+    font-size: 0.9rem;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding: 1.25rem 3rem;
+}
+
+.d5_4{
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    padding-top: 10%;
+    padding-right: 15%;
+}
+
+/* this is section 6 css -----------------------*/
+.s6{
+    background-color: black;
+    background-image: url('footer-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.d6_1{
+    width: 5%;
+    margin: auto;
+    padding-top: 5%;
+}
+
+.d6_2{
+    width: 70%;
+    margin: auto;
+    padding: 5%;
+    padding-bottom: 0%;
+}
+
+.d6_3{
+    text-align: center;
+    width: 55%;
+    margin: auto;
+    padding: 5%;
+}
+
+#email{
+    width: 300px;
+    height: 50px;
+    border: none;
+}
+
+.b6{
+  width: 100px;
+  height: 52px;
+  background: #233EDE;
+  color: white;
+  cursor: pointer;
+  font-size: 0.9rem;
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.d6_4{
+  width: 90px;
+  height: 90px;
+  margin: auto;
+  padding: 2%;
+}
+
+.d6_5{
+    color: white;
+    width: 15%;
+    margin: auto;
+    padding: 2%;
+}
